@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Simple Web Scraper",
+    "version": "1.0",
+    "description": "Scrapes current tab content and allows download.",
+    "permissions": [
+      "activeTab",
+      "scripting",
+      "downloads"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
